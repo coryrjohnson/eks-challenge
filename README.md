@@ -29,7 +29,7 @@ Open Terminal.
 
 Change directories to eks-challenge directory.
 
-cd terraform
+    cd terraform
 
 Opens the Terraform directory.  
 
