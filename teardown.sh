@@ -4,4 +4,4 @@ kubectl delete -f kubernetes/ -R
 sleep 600
 kubectl get ns
 cd terraform
-terraform destroy -auto-approve
+terraform destroy

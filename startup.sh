@@ -2,7 +2,7 @@
 mkdir ~/.kube/
 cd terraform/
 terraform init
-terraform apply -auto-approve
+terraform apply
 sleep 10
 terraform output kubeconfig>~/.kube/config
 terraform output config_map_aws_auth > configmap.yml
